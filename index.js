@@ -12,7 +12,6 @@ app.use(cors());
 app.use(express.json());
 
 // ==========Establishing Mongo DB Connection==========
-// https://cloud.mongodb.com/v2/629e96601962f23e8dc4e009#clusters
 mongoose.connect(process.env.MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
